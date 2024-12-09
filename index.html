@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +15,169 @@
     <!-- Custom Color Script -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'p-color': '#f0756c',
+                    }
+                }
             }
-          }
+
         }
-      </script>
-      <!-- Custom Css -->
+    </script>
+    <script>
+        
+    </script>
+    <!-- Custom Css -->
 </head>
+
 <body>
-    
+    <!--Main Nav Area  -->
+    <header class="sticky top-0 bg-white">
+        <!-- Nav Area -->
+        <div class="navbar bg-base-100 w-[95%] mx-auto">
+            <div class="navbar-start">
+                <img src="images/logo.png" alt="logo">
+                <!-- Large Screen Social Icons -->
+                <div class="social-icons ml-8 hidden md:block ">
+                    <ul class="flex gap-2 text-2xl mt-2">
+                        <li class="hover:text-p-color"><i class="fa-brands fa-skype"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-solid fa-bell"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-telegram"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-twitch"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-whatsapp"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-github"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-facebook-messenger"></i></li>
+                        <li class="hover:text-p-color"><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Drop Down Area -->
+            <div class="navbar-end">
+                <div class="dropdown dropdown-end">
+                    <!-- Drawer -->
+                    <div class="drawer drawer-end">
+                        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">
+                            <!-- Page content here -->
+                            <label for="my-drawer-4" class="drawer-button  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h7" />
+                                </svg>
+                            </label>
+                        </div>
+                        <div class="drawer-side">
+                            <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                            <!-- Sidebar content here -->
+                            <ul class="menu bg-black text-white min-h-full w-80 p-4 font-semibold">
+                                <li class="text-p-color"><a class="">HOME</a></li>
+                                <li class="hover:text-p-color"><a>PROTFOLIO</a></li>
+                                <li class="hover:text-p-color"><a>SINGLE PROTFOLIO</a></li>
+                                <li class="hover:text-p-color"><a>SINGLE POST</a></li>
+                                <li class="hover:text-p-color"><a>STYLES</a></li>
+                                <li class="hover:text-p-color"><a>BLOG</a></li>
+                                <li class="hover:text-p-color"><a>TEAM</a></li>
+                                <li class="hover:text-p-color"><a>CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Small Screen Social Icons -->
+        <div class="social-icons w-[70%] mx-auto block md:hidden">
+            <ul class="flex gap-2 text-2xl mt-2">
+                <li class="hover:text-p-color"><i class="fa-brands fa-skype"></i></li>
+                <li class="hover:text-p-color"><i class="fa-solid fa-bell"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-telegram"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-twitch"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-twitter"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-whatsapp"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-github"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-facebook"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-facebook-messenger"></i></li>
+                <li class="hover:text-p-color"><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Banner Area -->
+    <div class=" min-h-screen mt-20 w-[95%] mx-auto rounded-xl"
+        style="background-image: url(./images/banner.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <!-- Banner Area Text -->
+        <div class=" text-white p-28">
+            <h4 class="text-xl text-white ">VFX / Graphics Head </h4>
+            <h1 class="mb-5 text-9xl font-bold text-left">Jessica <br> Kobessi</h1>
+        </div>
+        <!-- Experience Area -->
+        <div
+            class="flex flex-col md:flex-row gap-5 justify-center items-center w-[95%] mx-auto rounded-xl py-4 bg-slate-900 capitalize">
+            <div class="flex items-center gap-5 text-white">
+                <h2 class="text-7xl font-bold">12</h2>
+                <p class="font-semibold text-xl leading-5 mt-3">Years of <br> experience</p>
+            </div>
+            <div class="flex items-center gap-5 text-white">
+                <h2 class="text-7xl font-bold">820</h2>
+                <p class="font-semibold text-xl leading-5 mt-3">Satisfied
+                    <br> clients
+                </p>
+            </div>
+            <div class="flex items-center gap-5 text-white">
+                <h2 class="text-7xl font-bold">712</h2>
+                <p class="font-semibold text-xl leading-5 mt-3">Employees <br>
+                    Worldwide</p>
+            </div>
+            <div class="flex items-center gap-5 text-white">
+                <h2 class="text-7xl font-bold">2K+</h2>
+                <p class="font-semibold text-xl leading-5 mt-3">Projects <br> Completed</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skill And Experience Section -->
+    <section class="experience mt-20">
+        <div class="skills w-4/6 mx-auto flex flex-col md:flex-row gap-7 items-center justify-around">
+            <div class="flex gap-5 items-center ">
+                <div>
+                    <i class="fa-solid fa-tv text-3xl text-[#4BA1A7]"></i>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold">UI/XI Design</h4>
+                    <p>At in proin consequat ut <br> cursus venenatis sapien.</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center ">
+                <div>
+                    <i class="fa-solid fa-bezier-curve text-3xl text-[#4BA1A7]"></i>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold">Illustration</h4>
+                    <p>At in proin consequat ut <br> cursus venenatis sapien.</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center ">
+                <div>
+                    <i class="fa-solid fa-pen-nib text-3xl text-[#4BA1A7]"></i>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold">Graphic Design </h4>
+                    <p>At in proin consequat ut <br> cursus venenatis sapien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-20 bg-[url('./images/section-banner.png')] h-[550px] bg-no-repeat bg-cover bg-center w-[95%] mx-auto rounded-xl">
+        <!-- References Card -->
+        <div class="References">
+            <h2 class="text-4xl text-white font-bold">References</h2>
+        </div>
+    </div>
+    <div class="h-[500px] bg-bg-image">
+
+    </div>
 </body>
+
 </html>
