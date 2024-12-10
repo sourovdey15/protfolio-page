@@ -26,15 +26,12 @@
 
         }
     </script>
-    <script>
-        
-    </script>
     <!-- Custom Css -->
 </head>
 
 <body>
     <!--Main Nav Area  -->
-    <header class="sticky top-0 bg-white">
+    <header class="sticky top-0 bg-white z-10">
         <!-- Nav Area -->
         <div class="navbar bg-base-100 w-[95%] mx-auto">
             <div class="navbar-start">
@@ -101,7 +98,6 @@
                 <li class="hover:text-p-color"><i class="fa-brands fa-github"></i></li>
                 <li class="hover:text-p-color"><i class="fa-brands fa-facebook"></i></li>
                 <li class="hover:text-p-color"><i class="fa-brands fa-facebook-messenger"></i></li>
-                <li class="hover:text-p-color"><i class="fa-brands fa-linkedin"></i></li>
             </ul>
         </div>
     </header>
@@ -109,13 +105,13 @@
     <div class=" min-h-screen mt-20 w-[95%] mx-auto rounded-xl"
         style="background-image: url(./images/banner.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <!-- Banner Area Text -->
-        <div class=" text-white p-28">
+        <div class=" text-white p-16 md:p-28">
             <h4 class="text-xl text-white ">VFX / Graphics Head </h4>
-            <h1 class="mb-5 text-9xl font-bold text-left">Jessica <br> Kobessi</h1>
+            <h1 class="mb-5 text-7xl md:text-9xl font-bold text-left">Jessica <br> Kobessi</h1>
         </div>
         <!-- Experience Area -->
         <div
-            class="flex flex-col md:flex-row gap-5 justify-center items-center w-[95%] mx-auto rounded-xl py-4 bg-slate-900 capitalize">
+            class="flex flex-col lg:flex-row gap-5 justify-center items-center w-[95%] mx-auto rounded-xl py-4 bg-slate-900 capitalize ">
             <div class="flex items-center gap-5 text-white">
                 <h2 class="text-7xl font-bold">12</h2>
                 <p class="font-semibold text-xl leading-5 mt-3">Years of <br> experience</p>
@@ -127,7 +123,7 @@
                 </p>
             </div>
             <div class="flex items-center gap-5 text-white">
-                <h2 class="text-7xl font-bold">712</h2>
+                <h2 class="text-7xl font-bold">71</h2>
                 <p class="font-semibold text-xl leading-5 mt-3">Employees <br>
                     Worldwide</p>
             </div>
@@ -139,7 +135,8 @@
     </div>
     <!-- Skill And Experience Section -->
     <section class="experience mt-20">
-        <div class="skills w-4/6 mx-auto flex flex-col md:flex-row gap-7 items-center justify-around">
+        <!-- Skills Area -->
+        <div class="skills md:w-[95%] lg:w-4/6 mx-auto flex flex-col md:flex-row gap-7 items-center justify-around">
             <div class="flex gap-5 items-center ">
                 <div>
                     <i class="fa-solid fa-tv text-3xl text-[#4BA1A7]"></i>
@@ -168,16 +165,306 @@
                 </div>
             </div>
         </div>
+        <!-- Education and Experience -->
+        <div class="my-16 w-[95%] mx-auto flex flex-col md:flex-row gap-5">
+            <!-- Education Here -->
+            <div class="bg-[#efeaea] md:w-1/3 rounded-xl p-10">
+                <h4 class="text-2xl font-bold mb-6">Education</h4>
+                <p class="text-gray-500 mb-3">1998 - 2004 </p>
+                <h4 class="text-2xl font-bold mb-2">Bachelors in Engineering in Information Technology</h4>
+                <p class="text-gray-500 mb-8">Bachelors in Engineering in Information Technology</p>
+                <p class="text-gray-500 mb-2">2004 - 2006</p>
+                <h4 class="text-2xl font-bold mb-2">Masters in Data Analysis </h4>
+                <p class="text-gray-500">Harvard School of Science and management</p>
+            </div>
+            <!-- Experiences Here -->
+            <div class="bg-[#f5f8f1] md:w-1/3 rounded-xl p-10">
+                <h4 class="text-2xl font-bold mb-6">Experiences</h4>
+                <p class="text-gray-500 mb-3">2007 - 2012 </p>
+                <h4 class="text-2xl font-bold mb-2">Creative Agency Inc.: Design head</h4>
+                <p class="text-gray-500 mb-8">iacentem substantiales um se sed esse haec Possit facis qui a a a patriam
+                </p>
+                <p class="text-gray-500 mb-2">2013 - present</p>
+                <h4 class="text-2xl font-bold mb-2">Studio Alpha.: Project Manager</h4>
+                <p class="text-gray-500">iacentem substantiales um se sed esse haec Possit facis qui a a a patriam </p>
+            </div>
+            <!-- Interests Here -->
+            <div class="bg-[#EFE8EF] md:w-1/3 rounded-xl p-10">
+                <h4 class="text-2xl font-bold mb-6">Interests</h4>
+                <p class="text-gray-500 mb-3">1998 - 2004 </p>
+                <h4 class="text-2xl font-bold mb-2">Creative Agency Inc.: Design head</h4>
+                <p class="text-gray-500 mb-8">iacentem substantiales um se sed esse haec Possit facis qui a a a patriam
+                </p>
+                <p class="text-gray-500 mb-2">2013 - present</p>
+                <h4 class="text-2xl font-bold mb-2">Studio Alpha.: Project Manager</h4>
+                <p class="text-gray-500">iacentem substantiales um se sed esse haec Possit facis qui a a a patriam </p>
+            </div>
+        </div>
     </section>
-    <div class="mt-20 bg-[url('./images/section-banner.png')] h-[550px] bg-no-repeat bg-cover bg-center w-[95%] mx-auto rounded-xl">
+    <!-- References Area -->
+    <div
+        class="mt-20 bg-[url('./images/section-banner.png')] h-[550px] bg-no-repeat bg-cover bg-center w-[95%] mx-auto rounded-xl">
         <!-- References Card -->
-        <div class="References">
-            <h2 class="text-4xl text-white font-bold">References</h2>
+        <div class="px-5 md:px-8 lg:px-12 pt-4 md:py-3 lg:py-16">
+            <div class="bg-[#000000] text-white md:w-1/3 rounded-xl p-10">
+                <h4 class="text-3xl font-extrabold mb-6">References</h4>
+                <p class="text-gray-500 mb-3">1998 - 2004 </p>
+                <h4 class="text-2xl font-bold mb-2">Dr. Stephen H. King </h4>
+                <p class="text-gray-500 mb-8">Harvard School of Science and <br> management</p>
+                <p class="text-gray-500 mb-2">2004 - 2006</p>
+                <h4 class="text-2xl font-bold mb-2">Dr. David Howard </h4>
+                <p class="text-gray-500">Harvard School of Science and <br> management</p>
+            </div>
         </div>
     </div>
-    <div class="h-[500px] bg-bg-image">
+    <!-- Gallery Area -->
+    <section class="w-[95%] mx-auto my-20">
+        <!-- Gallery Text Area -->
+        <div class=" lg:w-[60%] mx-auto">
+            <h4 class="text-4xl font-bold text-center">
+                As a passionate life coach and entrepreneur, I'm dedicated to guiding you on your journey to success and
+                fulfillment.
+            </h4>
+        </div>
+        <div class="category my-10 text-center grid grid-cols-1 md:grid-cols-4 gap-5">
+            <button class="btn bg-black text-white  uppercase  ">Photography</button>
+            <button class="btn bg-[#ebd5d5] uppercase">Graphic Design</button>
+            <button class="btn bg-[#ebd5d5] uppercase">Illustrations</button>
+            <button class="btn bg-[#ebd5d5] uppercase">Branding</button>
+        </div>
+        <!-- Gallery Image Area -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            <div><img src="images/illustration-1.jpg" alt="image 1"></div>
+            <div><img src="images/illustration-2.jpg" alt="image 2"></div>
+            <div><img src="images/illustration-3.jpg" alt="image 3"></div>
+            <div><img src="images/illustration-4.jpg" alt="image 4"></div>
+            <div><img src="images/illustration-5.jpg" alt="image 5"></div>
+            <div><img src="images/illustration-3.jpg" alt="image 6"></div>
+            <div><img src="images/illustration-2.jpg" alt="image 7"></div>
+            <div><img src="images/illustration-5.jpg" alt="image 8"></div>
+        </div>
+        <div class="my-10 text-center">
+            <button class="btn btn-outline text-xl">View All Work</button>
+        </div>
+    </section>
+    <!-- Testimonials Area -->
+    <section class="testimonial">
+        <!-- Testimonial Title -->
+        <div>
+            <h2 class="text-4xl md:text-6xl font-extrabold text-center">Testimonials</h2>
+        </div>
+        <!-- Testimonial Carousel Area -->
+        <div class="w-[90%] mx-auto">
+            <div class="carousel w-full my-10">
+                <div id="item1" class="carousel-item w-full mx-auto">
+                    <div class="flex flex-col md:flex-row gap-5 justify-between">
+                        <!-- Card 1 -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold">Jon S.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 2  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Kevin H.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 3  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Ms. Rose</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                    <div class="flex flex-col md:flex-row gap-5 justify-between">
+                        <!-- Card 1 -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Jully A. </h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 2  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Kevin H.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 3  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Robin Hud </h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                    <div class="flex flex-col md:flex-row gap-5 justify-between">
+                        <!-- Card 1 -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Kevin H.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 2  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Kevin H.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                        <!-- Card 3  -->
+                        <div class="flex-1 bg-black text-white p-10 rounded-xl  space-y-3">
+                            <p>“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise
+                                tempus oncu
+                                enim pellen tesque est in neque, elit habi mattis.”
+                            </p>
+                            <h4 class="font-bold"> Kevin H.</h4>
+                            <p class="text-p-color">8/20/2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full justify-center gap-2 py-2">
+                <a href="#item1" class="btn btn-xs">1</a>
+                <a href="#item2" class="btn btn-xs">2</a>
+                <a href="#item3" class="btn btn-xs">3</a>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Area -->
+    <section class="faq my-10 w-[95%] mx-auto">
+        <!-- FAQ Title Area -->
+        <div>
+            <h2 class="text-4xl md:text-6xl font-extrabold text-center">FAQ</h2>
+        </div>
+        <!-- FAQ Main Content Area -->
+        <div class=" mt-14 flex flex-col lg:flex-row items-center gap-5">
+            <div class="flex-1">
+                <img src="images/illustration-6.png" alt="illustration-6">
+            </div>
+            <div class="flex-1 space-y-3">
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">Can I use credit cards or USD for payment?</div>
+                    <div class="collapse-content">
+                        <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas
+                            magnis. Etiam faucibus et ultrices sit aliquet ultrices.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What times are you available for calls?</div>
+                    <div class="collapse-content">
+                        <p>Labore accusam in modo compungi, iacentem substantiales um se sed esse haec. Labore accusam
+                            in modo compungi, iacentem substantiales um se sed esse haec.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do I hire you for few months?</div>
+                    <div class="collapse-content">
+                        <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas
+                            magnis. Etiam faucibus et ultrices sit aliquet ultrices.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do I hire you for few months?</div>
+                    <div class="collapse-content">
+                        <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas
+                            magnis. Etiam faucibus et ultrices sit aliquet ultrices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Letest News Area -->
+    <section class="news w-[95%] mx-auto">
+        <div class="text-center space-y-5">
+            <h2 class="text-4xl md:text-6xl font-extrabold ">Letest News</h2>
+            <p>Accusan maiores alias conseaut equatur aut perferendi. </p>
+        </div>
+        <!-- News Cards Here -->
+        <div class="mt-10 flex flex-col lg:flex-row gap-3">
+            <!-- News Card 1 -->
+            <div class="card card-side border-2 w-[90%] mx-auto lg:w-[50%] shadow-2xl mb-10">
+                <figure class="px-6 py-6">
+                    <img class="pl-5 w-[150px] rounded-xl" src="images/illustration-4.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body ">
+                    <p>Design / Sept 12, 2022</p>
+                    <h2 class=" text-xl md:text-2xl font-bold">Graphic Designing Useful Tips & Best Practices </h2>
+                    
+                </div>
+            </div>
+            <!-- News Card 2 -->
+            <div class="card card-side border-2 w-[90%] lg:w-[50%] mx-auto shadow-2xl  mb-10">
+                <figure class="px-6 py-6">
+                    <img class="pl-5 w-[150px] rounded-xl" src="images/illustration-4.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body ">
+                    <p>Design / Sept 12, 2022</p>
+                    <h2 class="text-xl md:text-2xl font-bold">Best way to do branding of digital products </h2>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-3">
+            <!-- News Card 1 -->
+            <div class="card card-side border-2 w-[90%] mx-auto lg:w-[50%] shadow-2xl mb-10">
+                <figure class="px-6 py-6">
+                    <img class="pl-5 w-[150px] rounded-xl" src="images/illustration-4.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body ">
+                    <p>Design / Sept 12, 2022</p>
+                    <h2 class=" text-xl md:text-2xl font-bold">Graphic Designing Useful Tips & Best Practices </h2>
+                    
+                </div>
+            </div>
+            <!-- News Card 2 -->
+            <div class="card card-side border-2 w-[90%] lg:w-[50%] mx-auto shadow-2xl  mb-10">
+                <figure class="px-6 py-6">
+                    <img class="pl-5 w-[150px] rounded-xl" src="images/illustration-4.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body ">
+                    <p>Design / Sept 12, 2022</p>
+                    <h2 class="text-xl md:text-2xl font-bold">Best way to do branding of digital products </h2>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="my-10 text-center">
+            <button class="btn btn-outline text-xl">View All Blogs</button>
+        </div>
+    </section>
 
-    </div>
+
 </body>
 
 </html>
